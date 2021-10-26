@@ -20,14 +20,6 @@ Project link : https://makerchip.com/sandbox/00Rf2hpmg/0xGhQx9
 
                    
 \SV
-	//module seven_segment_counter(input clk, input reset, output [3:0] digit, output [6:0] sseg, output dp);
-		// Write your logic here
-     // assign digit = 4'b0000;
-      //assign dp = 1;
-      //assign sseg = 7'b0000000;
-      //counter c (clk, digit);
-   //endmodule
-   
    module top1(input clk, input reset, output [3:0] digit, output [6:0] sseg, output dp);
       reg [3:0] num ; 
       counter c (clk, num);
