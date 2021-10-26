@@ -65,3 +65,5 @@ Project link : https://makerchip.com/sandbox/00Rf2hpmg/0xGhQx9
      assign dp = 1;
    endmodule
 ```
+### Output
+![](https://github.com/hplvm/EC05_task/blob/main/media-attachments/SSEG_counter.gif)
